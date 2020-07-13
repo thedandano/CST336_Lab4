@@ -1,4 +1,25 @@
 body {
-  background-color: #cbe2f6;
+  background-color: black;
+  color: white;
   text-align: center;
+}
+.my-nav {
+  /* background-image: linear-gradient(-90deg, #7448e3, #01c4cc); */
+  background-image: linear-gradient(90deg, #3675c9, #c936bf);
+}
+#navbarNav a {
+  color: white;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 1000px;
+}
+
+h2,
+.facts {
+  margin-left: 5%;
 }
