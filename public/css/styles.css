@@ -6,25 +6,23 @@
   /* background-image: linear-gradient(-90deg, #7448e3, #01c4cc); */
   background-image: linear-gradient(90deg, #3675c9, #c936bf);
 }
+
 .my-brand {
   margin: 0;
   padding: 0;
   height: 5%;
   width: 5%;
+  max-width: 33px;
 }
 #sun-img {
   width: 33px;
   height: 33px;
 }
-#navbarNav a {
+.navbar-light .navbar-nav .nav-link {
   color: white;
   font-weight: 500;
-  transition: transform 0.2s;
 }
-#navbarNav > li > a:hover,
-#navbarNav > li > a:focus {
-  transition: scale(1.5) !important;
-}
+
 h1 {
   text-align: center;
 }

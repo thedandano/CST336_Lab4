@@ -24,13 +24,13 @@ app.get("/", function (req, res) {
 });
 
 app.get("/mercury", function (req, res) {
-  res.render("mercury.html");
+  res.render("mercury.html", { page_name: "mercury" });
 });
 
 app.get("/venus", function (req, res) {
-  res.render("venus.html");
+  res.render("venus.html", { page_name: "venus" });
 });
 
 app.get("/earth", function (req, res) {
-  res.render("earth.html");
+  res.render("earth.html", { page_name: "earth" });
 });

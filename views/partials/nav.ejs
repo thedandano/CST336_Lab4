@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light my-nav">
+  <a class="navbar-brand my-brand" href="/"
+    ><img id="sun-img" src="/img/sun.png" alt="The sun"
+  /></a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="true"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse my-navbarNav" id="navbarNav">
+    <ul class="navbar-nav">
+      
+        <!--Note to self continue researching how to make this scaleable-->
+      <li class="nav-item" >
+        <a class="nav-link <%= page_name == "home" ? 'active' : "" %>" href="/">Home</a>
+      </li>
+      <li id="mercury" class="nav-item">
+        <a class="nav-link <%= page_name == "mercury" ? 'active' : "" %>" href="/mercury">Mercury
+        </a>
+      </li> 
+      <li id="venus" class="nav-item">
+        <a class="nav-link <%= page_name == "venus" ? 'active' : "" %>" href="/venus">Venus</a>
+      </li>
+      <li id="earth" class="nav-item">
+        <a class="nav-link <%= page_name == "earth" ? 'active' : "" %>" href="/earth">Earth</a>
+      </li>
+    </ul>
+  </div>
+</nav>
