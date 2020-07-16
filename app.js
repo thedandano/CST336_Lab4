@@ -34,3 +34,7 @@ app.get("/venus", function (req, res) {
 app.get("/earth", function (req, res) {
   res.render("earth.html", { page_name: "earth" });
 });
+
+app.get("/mars", function (req, res) {
+  res.render("mars.html", { page_name: "mars" });
+});
